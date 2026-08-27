@@ -24,10 +24,37 @@
 | Operators (alt spellings) | and, and_eq, or, or_eq, not, not_eq, bitand, bitor, compl, xor, xor_eq |
 | Miscellaneous             | [asm](https://www.geeksforgeeks.org/cpp/c-asm-declaration/), [auto](https://www.geeksforgeeks.org/cpp/type-inference-in-c-auto-and-decltype/), [return](https://www.geeksforgeeks.org/cpp/return-statement-in-cpp-with-examples/), [sizeof](https://www.geeksforgeeks.org/cpp/cpp-sizeof-operator/) |
 
+**Note**: The number of keywords C++ has evolved over time as new features were added to the language. **For example**, C++ 98 had 63 keywords, C++ 11 had 84 keywords.
 
 
-## References
+
+## Keywords vs Identifiers
+
+Keywords and Identifiers are the basic building  blocks of a C program. Keywords are reserved words with predefined  meanings, while identifiers are user-defined names used to identify  program elements.
+
+- Keywords define the syntax and structure of the C language and cannot be used as names. 
+- Identifiers are user-defined names given to variables, functions, arrays, structures, and other program elements.
+
+
+
+| Feature                | Keyword                                           | Identifier                                             |
+| ---------------------- | ------------------------------------------------- | ------------------------------------------------------ |
+| Definition             | A reserved word with a predefined meaning in C.   | A user-defined name used to identify program elements. |
+| Purpose                | Defines the syntax and structure of the language. | Names variables, functions, arrays, structures, etc.   |
+| Defined By             | C Language                                        | Programmer                                             |
+| Can Be Modified        | No                                                | Yes                                                    |
+| Usage as Variable Name | Not Allowed                                       | Allowed                                                |
+| Meaning                | Fixed and predefined.                             | Depends on the programmer's choice.                    |
+| Lowercase or uppercase | It should be lowercase                            | It can be both upper and lowercase                     |
+| Number Available       | Limited and predefined.                           | Unlimited (within naming rules).                       |
+| Examples               | int, if, while, return                            | age, salary, display(), studentName                    |
+
+
+
+
+
+# References
 
 * [W3School - C++ Keywords ](https://www.w3schools.com/cpp/cpp_ref_keywords.asp)
 * [GeeksForGeeks - C++ Keywords ](https://www.geeksforgeeks.org/cpp/cpp-keywords/)
-
+* [GeeksForGeeks - Difference between Keyword and Identifier in C ](https://www.geeksforgeeks.org/c/difference-between-keyword-and-identifier/)
