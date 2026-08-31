@@ -44,3 +44,4 @@ A list of useful functions in the algorithm library can be found below.
 # References
 
 * https://w3schools.dev/cpp/cpp_ref_algorithm.asp
+* https://www.geeksforgeeks.org/cpp/c-magicians-stl-algorithms/
