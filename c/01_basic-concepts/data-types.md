@@ -27,7 +27,7 @@ There are different format specifiers for each data type. Here are some of  them
 
 
 
-# Characters
+# Character (char) Types
 
 The `char` data type is used to store a  **single** character.
 
@@ -48,6 +48,39 @@ printf("%c", a);
 printf("%c", b);
 printf("%c", c); 
 ```
+
+
+
+# Numeric Types
+
+Use `int` when you need to store a whole number without decimals, like 35 or 1000, and `float` or `double` when you need a floating point number (with decimals), like 9.99 or 3.14515
+
+
+
+## int
+
+```c
+int myNum = 1000;
+printf("%d", myNum); 
+```
+
+## float
+
+```c
+float myNum = 5.75;
+printf("%f", myNum); 
+```
+
+## double
+
+```c
+double myNum = 19.99;
+printf("%lf", myNum); 
+```
+
+
+
+
 
 # References
 
