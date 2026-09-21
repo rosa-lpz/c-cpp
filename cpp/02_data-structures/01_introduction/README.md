@@ -20,7 +20,7 @@ The most common data structures are:
 
 | Data Structure                                          | Description                                                  |
 | ------------------------------------------------------- | ------------------------------------------------------------ |
-| [Vector](https://www.w3schools.com/cpp/cpp_vectors.asp) | Stores elements like an [array](https://www.w3schools.com/cpp/cpp_arrays.asp) but can     dynamically change in size. Adding and removing of elements are usually done     at the end. Elements can be accessed by index. |
+| [Vector](https://www.w3schools.com/cpp/cpp_vectors.asp) | Stores elements like an [array](https://www.w3schools.com/cpp/cpp_arrays.asp) but can dynamically change in size. Adding and removing of elements are usually done     at the end. Elements can be accessed by index. |
 | [List](https://www.w3schools.com/cpp/cpp_list.asp)      | Stores elements sequentially, where each element is connected to the     next. Adding and removing of elements can be done at both ends. Not     accessible by index. |
 | [Stack](https://www.w3schools.com/cpp/cpp_stacks.asp)   | Stores elements in a specific order, called LIFO (Last In, First Out),     where elements can only be added and removed from the top. Not accessible by     index. |
 | [Queue](https://www.w3schools.com/cpp/cpp_queues.asp)   | Stores elements in a specific order, called FIFO (First In, First Out),     where elements are added at the end and removed from the front. Not     accessible by index. |
@@ -55,7 +55,7 @@ Which one to use depends on your specific needs. One thing they all have in comm
 
 
 
-  
+
 
 Here is an example of using vectors, after we have included the `<vector>` library:
 
@@ -74,7 +74,7 @@ vector<string> cars = {"Volvo", "BMW",   "Ford", "Mazda"};
 
 
 
-  
+
 
 The next chapters will explain how each data structure works and how to use them.
 
